@@ -1,6 +1,4 @@
 Ćwiczenia z VBA - Automatyzacja w Excelu
-Wprowadzenie
-Ten zestaw ćwiczeń został przygotowany, aby pomóc w nauce Visual Basic for Applications (VBA) dla Excela. Zaczyna się od przeglądu typów zmiennych w VBA, a następnie przechodzi przez operacje na ciągach tekstowych, liczbach oraz bardziej zaawansowane zagadnienia, takie jak praca z tablicami, pętlami i instrukcjami warunkowymi. Ostatecznie zestaw obejmuje podstawowe oraz zaawansowane operacje na komórkach Excela.
 
 Zawartość
 1. Typy zmiennych w VBA:
