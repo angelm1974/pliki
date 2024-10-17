@@ -25,7 +25,8 @@ End Sub
 Sub SumyCzesciowe()
     Dim zakres As Range
     Set zakres = ThisWorkbook.Sheets("Arkusz1").Range("B1:B10")
-    zakres.Subtotal GroupBy:=1, Function:=xlSum, TotalList:=Array(2), Replace:=True, PageBreaks:=False, SummaryBelowData:=True
+    zakres.Subtotal GroupBy:=1, Function:=xlSum, TotalList:=Array(2), Replace:=True, 
+    PageBreaks:=False, SummaryBelowData:=True
     MsgBox "Sumy częściowe zostały obliczone dla kolumny B"
 End Sub
 
@@ -43,3 +44,5 @@ Sub SortowanieDanych()
     zakres.Sort Key1:=ThisWorkbook.Sheets("Arkusz1").Range("A1"), Order1:=xlAscending, Header:=xlYes
     MsgBox "Dane zostały posortowane według kolumny A"
 End Sub
+
+

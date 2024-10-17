@@ -20,3 +20,4 @@ Sub TypyZmiennych()
     MsgBox "Data i czas: " & dataCzas
     MsgBox "Wartość logiczna: " & wartoscLogiczna
 End Sub
+
