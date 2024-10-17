@@ -38,3 +38,9 @@ Sub KopiowanieZakresu()
     zakres.Copy Destination:=ThisWorkbook.Sheets("Arkusz2").Range("A1")
     MsgBox "Zakres A1:B10 został skopiowany do Arkusza 2"
 End Sub
+
+sub Autosumowanie(ByVal Nazwisko as String,ByVal Cena Currency )
+    dim wartoscZamowiena as Currency
+    Sheets("test").cells(1,1).value = Nazwisko
+    Sheets("test").cells(1,2).value = Cena
+end sub
