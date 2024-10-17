@@ -40,7 +40,5 @@ Sub KopiowanieZakresu()
 End Sub
 
 sub Autosumowanie(ByVal Nazwisko as String,ByVal Cena Currency )
-    dim wartoscZamowiena as Currency
-    Sheets("test").cells(1,1).value = Nazwisko
-    Sheets("test").cells(1,2).value = Cena
+
 end sub
